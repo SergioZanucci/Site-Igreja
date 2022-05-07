@@ -1,0 +1,112 @@
+* {
+    
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background: #000000;
+    padding-top: 20px;
+
+}
+
+#logo__igreja {
+    position: absolute;
+    top: 4%;
+    left: 1%;
+    width: 3%;
+  
+}
+
+#texto__principal   {
+    display: inline;
+    position: absolute;
+    color: #b5907a;
+    left: 85px;
+    font-size: 2em;
+    top: 5%;   
+}
+
+main {
+    display: inline-flex;
+    position: absolute;
+    left: 35%;
+    font-size: 12px;
+    text-transform: uppercase;
+    font-family: Montserrat , sans-serif;
+    top: 7%;
+    color: #b5907a;
+    cursor: pointer;
+    
+}
+
+main:hover {
+    color: rgb(238, 255, 234);
+   
+}
+
+img#logo__youtube {
+    display: inline;
+    position: absolute;
+    width: 3%;
+    right: 10%;
+    border-radius: 50px;
+    margin-top: 2px;   
+}
+
+img#logo__instagram {
+    display: inline;
+    position: absolute;
+    width: 3%;
+    right: 6%;
+    border-radius: 50px;
+    margin-top: 2px;   
+}
+
+img#logo__facebook {
+    display: inline;
+    position: absolute;
+    width: 3%;
+    right: 2%;
+    border-radius: 50px;
+    margin-top: 2px;
+}
+
+#banner {
+    width: 100%;
+    padding-top: 65px;
+    height: 32rem;
+
+}
+
+.mapa {
+    padding: 0em 0;
+}
+
+.mapa h3 {
+    margin: 0 0 2em;
+    color: #fff;
+    text-align: center;
+    font-family: Montserrat , sans-serif;
+    margin-top: 7px;
+    margin: 6px;
+    font-size: 25px;
+}
+
+footer {
+    text-align: center;
+    background: url("img/bg.jpg");
+    padding: 40px 0;
+}
+
+footer img{
+    border-radius: 50%;
+    width: 10%;
+}
+
+.copyright {
+    color: #fff;
+    font-size: 15px;
+    margin: 30px 0 0;
+    
+}
