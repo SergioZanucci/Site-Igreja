@@ -1,7 +1,7 @@
 * {
     
     margin: 0;
-    padding: 0;
+    
 }
 
 body {
@@ -26,24 +26,6 @@ body {
     left: 85px;
     font-size: 2em;
     top: 4%;   
-}
-
-main {
-    display: inline-flex;
-    position: absolute;
-    left: 35%;
-    font-size: 13px;
-    text-transform: uppercase;
-    font-family: Montserrat , sans-serif;
-    top: 6%;
-    color: #000;
-    cursor: pointer;
-    
-}
-
-main:hover {
-    color: rgb(96, 95, 95);
-   
 }
 
 img#logo__youtube {
@@ -80,17 +62,26 @@ img#logo__facebook {
 
 }
 
+main p {
+    padding: 35px;
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 22px;
+    letter-spacing: 2px;
+}
+
 .valores  {
     color: #000;
     font-size: 16px;
     font-family: Montserrat , sans-serif;
     padding: 35px 0 15px 0;
+    margin-left: 10px;
    
 }
 
 .valores h4 {
     padding: 5px;
-    margin-left: 15px;
+    letter-spacing: 2px;
    
 }
 
@@ -98,6 +89,7 @@ img#logo__facebook {
     color: #000;
     text-align: center;
     font-family: Montserrat , sans-serif;
+    letter-spacing: 2px;
     margin-top: 30px;
     margin: 6px;
     font-size: 25px;
