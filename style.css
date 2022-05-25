@@ -10,8 +10,8 @@ body {
 
 #logo__igreja {
     position: absolute;
-    top: 1%;
-    left: 1%;
+    top: 3%;
+    left: 5%;
     width: 85vh;
 }
 
@@ -21,34 +21,34 @@ img#logo__youtube {
     display: inline;
     position: absolute;
     width: 2%;
-    right: 10%;
+    right: 13%;
     border-radius: 50px;
-    top: 30px;   
+    top: 50px;   
 }
 
 img#logo__instagram {
     display: inline;
     position: absolute;
     width: 2%;
-    right: 6%;
+    right: 9%;
     border-radius: 50px;
-    top: 30px;   
+    top: 50px;   
 }
 
 img#logo__facebook {
     display: inline;
     position: absolute;
     width: 2%;
-    right: 2%;
+    right: 5%;
     border-radius: 50px;
-    top: 30px;
+    top: 50px;
 }
 
 /*Banner rotativo*/
 
 .content {
-    height: 80%;
-    width: 97%;
+    height: 73%;
+    width: 91%;
     border-radius: 10px;
     overflow: hidden;
     position: absolute;
@@ -65,8 +65,8 @@ img#logo__facebook {
 
 .navigation {
     position: absolute;
-    bottom: 50px;
-    left: 50px;
+    bottom: 70px;
+    left: 90px;
     display: flex;  
 }
 
@@ -262,16 +262,16 @@ Flexbox*/
 /* texto e foto pastoral*/
 
 .lideranca h2 {
-    padding-top: 0px 0 0px 0;
-    margin: 17px;
+    padding: 20px;
+    margin-left: 65px;
     font-size: 24px;
     font-family: Mont serrat , sans-serif; 
 
 }
 
 .lideranca img {
-    margin: 17px;
-    width: 50vh;
+    margin-left: 75px;
+    width: 40vh;
     transition: 500ms;
     max-width: 100%;
    -moz-transform: all 0.2s;
@@ -290,8 +290,10 @@ Flexbox*/
 /*rede social Pr*/
 
 #redePr {
+    padding: 1%;
     width: 2%;
-    margin-inline: 1.1%;
+    margin-left: 4%;
+
    
 }
 
@@ -306,14 +308,14 @@ Flexbox*/
 #foto__familia {
     width: 70vh;
     margin-left: 35%;
-    margin-top: 20px;   
+    margin-top: 30px;   
 }
 
 .videos {
     display: flex;
     justify-content: space-around;
     flex-wrap: wrap;
-    margin-top: 20px;
+    margin-top: 50px;
 }
 
 /*mapa*/
@@ -323,58 +325,31 @@ Flexbox*/
     text-align: center;
     font-family: Montserrat , sans-serif;
     letter-spacing: 2px;
-    margin-top: 30px;
-    margin: 6px;
+    margin: 35px;
     font-size: 25px;
     padding: 15px;
 }
 
 /*rodape*/
 
-#rodape__footer {
-    font-size: 12px;
+.informacao {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    
 }
 
-#sobre__nos  {
-    margin-right: 85%;
-    text-transform: uppercase;
-    font-size: 20px;
-    padding: 10px;
-}
-
-#quem__somos {
-    margin-right: 85%;
-}
-
-#comu__nidade  {
-    margin-right: 85%;
-}
-
-#visao__visao {
-    margin-right: 85%;
-    padding: 10px;
-}
-
-#ser__igreja {
-    margin-right: 85%;
-}
-
-footer {
-    text-align: center;
-    background: url("");
-    padding: 40px 0;
-}
-
-footer img{
+#imagem__final {
     border-radius: 50%;
-    width: 5%;
-    margin-top: 50px;
+    width: 11vh;
+    margin-top: 30px;
 }
 
-.copyright {
+#copyright {
     color: #000;
-    font-size: 10px;
+    font-size: 20px;
     margin: 50px 0 0;
     text-transform: uppercase;
     letter-spacing: 2px;
+    text-align: center;
 }
