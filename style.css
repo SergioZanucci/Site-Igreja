@@ -123,15 +123,13 @@ input {
 /*Texto tema*/
 
 #tema {
-    font-size: 20px;
+    font-size: 22px;
     text-align: center;
     margin-top: 45%;
     font-family: Mont serrat , sans-serif;
     border: 2px solid #000;
 
 }
-
-
 
 /*imagens da programação.
 Flexbox*/
