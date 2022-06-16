@@ -120,7 +120,16 @@ input {
     margin-left: -80%;
 }
 
-/*Texto progrmação*/
+/*Texto tema*/
+
+#tema {
+    font-size: 20px;
+    text-align: center;
+    margin-top: 45%;
+    font-family: Mont serrat , sans-serif;
+    border: 2px solid #000;
+
+}
 
 
 
@@ -131,7 +140,7 @@ Flexbox*/
     display: flex;
     justify-content: space-around;
     flex-wrap: wrap;
-    padding-top: 55%;
+    padding-top: 5%;
    
 }
 
@@ -330,17 +339,50 @@ Flexbox*/
     padding: 15px;
 }
 
-/*rodape*/
+/*Sobre Nos Tabela*/
 
-.informacao {
-    display: flex;
-    flex-wrap: wrap;
-    flex-flow: column wrap;
-    
+table {
+    font-size: 18px;
+    font-family: Mont serrat , sans-serif;
+    padding-left: 50px;  
+   
 }
 
+tbody td {
+   padding-top: 15px;
+ 
+}
+
+#sobre__nos {
+    font-size: 20px;
+    padding-top: 15px;
+}
+
+tfoot {
+    display: inline;
+    position: absolute;
+    margin-top: -24em;
+    left: 40%;
+    font-family: Mont serrat , sans-serif;
+    border-right: 2px solid #000;
+  
+}
+
+#deposite {
+    font-size: 20px;
+}
+
+#endereco {
+    font-size: 20px;
+    margin-top: -24em;
+    left: 60%;
+}
+
+
+/*rodape*/
+
 footer {
-    background: url();
+    background-color: #D3D3D3;
 }
 
 #imagem__final {
@@ -358,3 +400,10 @@ footer {
     letter-spacing: 2px;
     text-align: center;
 }
+
+@media screen  and (max-width: 480px) {
+    .tema, .slides, .lideranca, .videos, .logo__igreja {
+      width: auto;
+}
+}
+
