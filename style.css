@@ -307,25 +307,40 @@ Flexbox*/
     list-style: none;
 }
 
-
-
 .informacao {
     display: flex;
-    align-items: center;
-    flex-direction: row;
-    justify-content: space-around;
-    flex-wrap: nowrap;
+    flex-direction: column;
+    justify-content: space-between;
+    align-content: space-around;
+    flex-wrap: wrap;
     font-size: 18px;
     font-family: Mont serrat , sans-serif;
-    padding-left: 30px;  
-    
-   
+    height: 7rem;
 }
 
+
+
+/* Oferta , Endereço texto*/
+.oferta {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-content: space-around;
+    flex-wrap: wrap;
+    font-size: 18px;
+    font-family: Mont serrat , sans-serif;
+    height: 7rem;
+   
+}
+#endereco {
+   font-size: 18px;
+   margin-left: 34%;
+}
 /*rodape*/
 
 footer {
     background-color: #D3D3D3;
+    margin-top: 30px;
 }
 
 #imagem__final {
