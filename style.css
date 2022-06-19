@@ -8,7 +8,7 @@ body {
     background: url(img/body.jpg);
 }
 
-#logo__igreja {
+.logo-igreja {
     position: absolute;
     top: 3%;
     left: 5%;
@@ -17,16 +17,16 @@ body {
 
 /*Icones redes sociais*/
 
-img#logo__youtube {
+.redes1 {
     display: inline;
     position: absolute;
     width: 2%;
     right: 13%;
-    border-radius: 50px;
     top: 50px;   
+    border-radius: 50px;  
 }
 
-img#logo__instagram {
+.redes2 {
     display: inline;
     position: absolute;
     width: 2%;
@@ -35,13 +35,13 @@ img#logo__instagram {
     top: 50px;   
 }
 
-img#logo__facebook {
+.redes3 {
     display: inline;
     position: absolute;
     width: 2%;
     right: 5%;
     border-radius: 50px;
-    top: 50px;
+    top: 50px; 
 }
 
 /*Banner rotativo*/
@@ -122,13 +122,11 @@ input {
 
 /*Texto tema*/
 
-#tema {
+.tema  {
     font-size: 22px;
     text-align: center;
-    margin-top: 45%;
     font-family: Mont serrat , sans-serif;
-    border: 2px solid #000;
-
+    margin-top: 45%;
 }
 
 /*imagens da programação.
@@ -138,7 +136,7 @@ Flexbox*/
     display: flex;
     justify-content: space-around;
     flex-wrap: wrap;
-    padding-top: 5%;
+    padding-top: 2%;
    
 }
 
@@ -266,56 +264,19 @@ Flexbox*/
     transform: scale(1.3);
 }
 
-/* texto e foto pastoral*/
-
-.lideranca h2 {
-    padding: 20px;
-    margin-left: 65px;
-    font-size: 24px;
-    font-family: Mont serrat , sans-serif; 
-
-}
-
-.lideranca img {
-    margin-left: 75px;
-    width: 40vh;
-    transition: 500ms;
-    max-width: 100%;
-   -moz-transform: all 0.2s;
-   -webkit-transform: all 0.2s;
-    transform: all 0.2s;
-    border-radius: 5px;
-    
-}
-
-.lideranca img:hover {
-   -moz-transform: scale(1.1);
-   -webkit-transform: scale(1.1);
-    transform: scale(1.1);
-}
-
-/*rede social Pr*/
-
-#redePr {
-    padding: 1%;
-    width: 2%;
-    margin-left: 4%;
-
-   
-}
-
 /* eventos*/
 
-#evento__campanha {
-    font-size: 20px;
+.campanha {
+    margin-top: 40px;
+    font-size: 30px;
     font-family: Mont serrat , sans-serif;
     text-align: center;   
 }
 
-#foto__familia {
+.foto-familia {
     width: 70vh;
     margin-left: 35%;
-    margin-top: 30px;   
+    margin-top: 40px;   
 }
 
 .videos {
@@ -337,45 +298,29 @@ Flexbox*/
     padding: 15px;
 }
 
-/*Sobre Nos Tabela*/
+/*Sobre Nos*/
 
-table {
+.cabecalho {
+    font-size: 22px;
+    text-align: center;
+    margin-top: 20px;
+    list-style: none;
+}
+
+
+
+.informacao {
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    justify-content: space-around;
+    flex-wrap: nowrap;
     font-size: 18px;
     font-family: Mont serrat , sans-serif;
-    padding-left: 50px;  
+    padding-left: 30px;  
+    
    
 }
-
-tbody td {
-   padding-top: 15px;
- 
-}
-
-#sobre__nos {
-    font-size: 20px;
-    padding-top: 15px;
-}
-
-tfoot {
-    display: inline;
-    position: absolute;
-    margin-top: -24em;
-    left: 40%;
-    font-family: Mont serrat , sans-serif;
-    border-right: 2px solid #000;
-  
-}
-
-#deposite {
-    font-size: 20px;
-}
-
-#endereco {
-    font-size: 20px;
-    margin-top: -24em;
-    left: 60%;
-}
-
 
 /*rodape*/
 
@@ -400,8 +345,30 @@ footer {
 }
 
 @media screen  and (max-width: 480px) {
-    .tema, .slides, .lideranca, .videos, .logo__igreja {
-      width: auto;
-}
+    body {
+        width: auto;
+        background: red;
+    }
+
+    #logo__igreja {
+        width: auto;
+    }
+    img#logo__youtube, img#logo__instagram, img#logo__facebook {
+        width: auto;
+        position: absolute;
+    }
+
+    .content .slide img, .content {
+       width: auto;
+    }
+
+    .tema__2022 {
+        width: auto;
+    }
+
+    .container, .container:nth-child(5n+1) {
+        width: auto;
+    }
+
 }
 
