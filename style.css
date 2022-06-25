@@ -10,7 +10,7 @@ body {
 
 .logo-igreja {
     position: absolute;
-    top: 3%;
+    top: 2%;
     left: 5%;
     width: 85vh;
 }
@@ -52,7 +52,7 @@ body {
     border-radius: 10px;
     overflow: hidden;
     position: absolute;
-    top: 55%;
+    top: 56%;
     left: 50%;
     transform: translate(-50%, -50%);
     box-shadow: 14px 14px 5px 0 rgba(0,0,0,0.75)
@@ -126,7 +126,7 @@ input {
     font-size: 22px;
     text-align: center;
     font-family: Mont serrat , sans-serif;
-    margin-top: 45%;
+    margin-top: 47%;
 }
 
 /*imagens da programação.
@@ -307,66 +307,101 @@ Flexbox*/
     list-style: none;
 }
 
-
-
 .informacao {
     display: flex;
-    align-items: center;
-    flex-direction: row;
-    justify-content: space-around;
-    flex-wrap: nowrap;
+    flex-direction: column;
+    justify-content: space-between;
+    align-content: space-around;
+    flex-wrap: wrap;
     font-size: 18px;
     font-family: Mont serrat , sans-serif;
-    padding-left: 30px;  
-    
-   
+    height: 7rem;
+}
+
+/* Oferta , Endereço texto*/
+
+.oferta {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-content: space-around;
+    flex-wrap: wrap;
+    font-size: 18px;
+    font-family: Mont serrat , sans-serif;
+    padding-top: 15px; 
+    margin-right: 70%;
+    padding-bottom: 5px;
 }
 
 /*rodape*/
 
 footer {
     background-color: #D3D3D3;
+   
 }
 
-#imagem__final {
-    border-radius: 50%;
-    width: 11vh;
-    margin-top: 30px;
-    margin-left: 50%;
-}
-
-#copyright {
+.rodape {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
     color: #000;
-    font-size: 20px;
-    margin: 50px 0 0;
+    font-size: 16px;
+    margin: 30px 0 0;
     text-transform: uppercase;
     letter-spacing: 2px;
     text-align: center;
 }
 
-@media screen  and (max-width: 480px) {
+#img__final {
+    width: 6vh;
+    margin-top: 15px;
+    padding-bottom: 15px;
+}
+
+
+@media screen and (max-width: 480px) {
     body {
         width: auto;
-        background: red;
     }
 
-    #logo__igreja {
+    .section, .logo-igreja {
         width: auto;
+        top: 2%;
     }
-    img#logo__youtube, img#logo__instagram, img#logo__facebook {
+
+    .section, .rede, .redes1, .redes2, .redes3 {
         width: auto;
         position: absolute;
     }
 
-    .content .slide img, .content {
+    .section, .slides1 {
        width: auto;
+       top: 56%;
     }
 
-    .tema__2022 {
+    .section header, .tema {
+        width: auto;
+        margin-top: 117%;   
+    }
+
+    .container main, #logo__EBD, #logo__familia, #logo__quinta, 
+    #logo__casais, #logo__mulheres, #logo__homens, #logo__jovens {
         width: auto;
     }
 
-    .container, .container:nth-child(5n+1) {
+    .section .campanhas .pcampanha, .imgfoto-familia {
+        width: auto;
+    }
+
+    .section .cabecalho {
+        width: auto;
+    } 
+
+    .section ul.informacao, .lista {
+        width: auto;
+    }
+
+    .section .oferta {
         width: auto;
     }
 }
