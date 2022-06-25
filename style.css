@@ -390,6 +390,21 @@ footer {
     }
 
     .section .campanhas .pcampanha, .imgfoto-familia {
+<<<<<<< HEAD
+        width: auto;
+    }
+
+    .section .cabecalho {
+        width: auto;
+    } 
+
+    .section ul.informacao, .lista {
+        width: auto;
+    }
+
+    .section .oferta {
+=======
+>>>>>>> 9d299a5f5221147a95061a02b8f603b8c4a0bb7c
         width: auto;
     }
 
@@ -404,6 +419,11 @@ footer {
     .section .oferta {
         width: auto;
     }
+<<<<<<< HEAD
+
+
+=======
+>>>>>>> deae0c45a41b1afc3856d92a0372b845c2799540
 }
 
 
