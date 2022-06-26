@@ -6,6 +6,7 @@
 
 body {
     background: url(img/body.jpg);
+   
 }
 
 .logo-igreja {
@@ -301,7 +302,7 @@ Flexbox*/
 /*Sobre Nos*/
 
 .cabecalho {
-    font-size: 22px;
+    font-size: 18px;
     text-align: center;
     margin-top: 20px;
     list-style: none;
@@ -313,7 +314,7 @@ Flexbox*/
     justify-content: space-between;
     align-content: space-around;
     flex-wrap: wrap;
-    font-size: 18px;
+    font-size: 16px;
     font-family: Mont serrat , sans-serif;
     height: 7rem;
 }
@@ -326,11 +327,16 @@ Flexbox*/
     justify-content: space-between;
     align-content: space-around;
     flex-wrap: wrap;
-    font-size: 18px;
+    font-size: 16px;
     font-family: Mont serrat , sans-serif;
     padding-top: 15px; 
     margin-right: 70%;
     padding-bottom: 5px;
+}
+
+
+strong{
+    font-weight: bold;
 }
 
 /*rodape*/
@@ -363,14 +369,12 @@ footer {
         width: auto;
     }
 
-    .section, .logo-igreja {
-        width: auto;
-        top: 2%;
+    section img.logo-igreja {
+        width: 100%;
     }
 
-    .section, .rede, .redes1, .redes2, .redes3 {
+    .section, .rede {
         width: auto;
-        position: absolute;
     }
 
     .section, .slides1 {
@@ -383,26 +387,44 @@ footer {
         margin-top: 117%;   
     }
 
-    .container main, #logo__EBD, #logo__familia, #logo__quinta, 
-    #logo__casais, #logo__mulheres, #logo__homens, #logo__jovens {
+    section .container main, #logo__EBD, #logo__familia, #logo__quinta, 
+    #logo__casais, #logo__mulheres, #logo__homens, #logo__jovens img {
+        width: auto;
+        margin: auto;
+    }
+
+    .section .campanhas .pcampanha {
         width: auto;
     }
 
-    .section .campanhas .pcampanha, .imgfoto-familia {
+    .foto-familia {
+        margin-left: auto;
+        width: 100%;
+    }
+
+    .videos {
         width: auto;
     }
 
-    .section .cabecalho {
+    section {
         width: auto;
+    }
+
+    .cabecalho {
+        width: auto;
+    }
+
+    section .informacao {
+        width: auto;
+        height: auto;
     } 
 
-    .section ul.informacao, .lista {
+    section ul.oferta {
         width: auto;
-    }
-
-    .section .oferta {
-        width: auto;
+        height: auto;
+        margin-right: auto;
     }
 }
+
 
 
