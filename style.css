@@ -369,7 +369,7 @@ footer {
         width: auto;
     }
 
-    section img.logo-igreja {
+    .logo-igreja img {
         width: 100%;
     }
 
@@ -377,18 +377,21 @@ footer {
         width: auto;
     }
 
-    .section, .slides1 {
-       width: auto;
-       top: 56%;
+    .section .content {
+      position: absolute;
     }
 
-    .section header, .tema {
+    .slides .slides1 {
+        width: auto;
+    }
+
+    .section header, p, strong, .tema {
         width: auto;
         margin-top: 117%;   
     }
 
-    section .container main, #logo__EBD, #logo__familia, #logo__quinta, 
-    #logo__casais, #logo__mulheres, #logo__homens, #logo__jovens img {
+    section .container main, #logo__EBD img, #logo__familia img, #logo__quinta img, 
+    #logo__casais img, #logo__mulheres img, #logo__homens img, #logo__jovens img {
         width: auto;
         margin: auto;
     }
